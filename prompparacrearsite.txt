@@ -1,0 +1,69 @@
+
+
+
+
+---
+
+### **Prompt for Building a Next.js Website with SEO and Modularity**  
+
+#### **Initial Setup**  
+- You are inside an existing Next.js project located in the `my-next-app` directory. You must navigate to this directory before running any commands.  
+- I am using Windows PowerShell, so I do not use `&&` in commands.  
+- The website will be statically generated.  
+- Images are stored in the `/public/images/` folder.  
+- This is a service-based website for a company that offers `<services>`.  
+- The website must support `<languages>`.  
+- Implement `href` language tags before the main slug in the URL. Example:  
+  `example.com/fr/example/example`  
+
+#### **Website Design and Structure**  
+- Use images intelligently to build a modern website with good color schemes, typography, and other design elements.  
+- Implement a **modular structure** to ensure intuitive navigation.  
+- Use `<service_information>` to understand the specifics of the business.  
+- **Multilingual SEO:** Ensure SEO and keywords are applied for both languages, not just one.  
+- **Translated URLs:** All URL slugs must be translated.  
+
+#### **Pages and Content Structure**  
+- The company offers services in `<locations>`.  
+- Generate all possible pages by combining `<services>` with `<locations>` to maximize search engine visibility.  
+- **Service + Location Pages:**  
+  - Make them **modular**, using at least **5-7 unique vertical content blocks**.  
+  - Use **SVG icons** where possible.  
+  - Ensure pages have enough **unique** content for ranking.  
+- **Service-Based Page Differentiation:**  
+  - No two service landing pages should look identical, even if they have the same service + location combination.  
+- **Accessible Design:**  
+  - Use **contrasting colors** (avoid white-on-white or black-on-black).  
+- **Landing Pages:**  
+  - They must be **unique**, built from a reusable template.  
+  - Use images and relevant business information.  
+- **Contact Page:**  
+  - Must be visually appealing and contain `<contact_details>`.  
+- **Modern & Modular Homepage:**  
+  - It must be **mobile-friendly**.  
+  - **No horizontal scrolling on mobile**.  
+
+#### **Technical Configuration**  
+- **Next.js Version:** Use **Next.js 14.2.23**.  
+- **Initial Setup:**  
+  - Create icons and SVGs as you go.  
+  - Do not use the `src/` directory.  
+- **Performance Optimization:**  
+  - Implement **Incremental Static Regeneration (ISR)** for faster rebuilds.  
+  - Use **Next.js and TailwindCSS** for a modern, modular website.  
+  - Maximize build efficiency, speed, and modularity.  
+- **Error Handling:**  
+  - Be **careful with TypeScript errors**.  
+  - Ensure you use **generateStaticParams** correctly (do not confuse with dynamic generation).  
+- **SEO Strategy:**  
+  - Implement all **slugs programmatically**.  
+  - Never create an index page link without linking it properly.  
+  - Take advantage of **exact keyword phrase matches** to scale up SEO.  
+  - **Example:** If you have a **100,000-name database**, create an indexed structure to maximize organic traffic.  
+
+
+
+codigo para correr el nextjs
+
+npm run dev
+
